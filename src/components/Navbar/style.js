@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 export const NavbarWrapper = styled.div`
 	background: var(--white);
-	grid-column: 1/3;
-	padding: 1em 2em;
+	grid-column: 1/4;
 
 	.user {
 		width: 100%;
 		height: 120px;
 		user-select: none;
-		margin-bottom: 1.5em;
+		margin-bottom: 0.25em;
 
 		.container {
 			grid-template-columns: repeat(12, 1fr);
@@ -48,21 +47,26 @@ export const NavbarWrapper = styled.div`
 	.nav-links {
 		width: 100%;
 		height: auto;
-		grid-gap: 1em 0;
+		grid-gap: 0.25em 0;
 
 		.active {
 			border-left: 5px solid var(--blue);
 		}
 
 		.nav-item {
-			/* background: green; */
-			height: 60px;
+			height: 55px;
 			align-items: center;
+			transition: all 0.15s ease-in-out;
 
 			grid-template-columns: repeat(12, 1fr);
 			align-items: center;
 			padding: 0 1em;
 			grid-gap: 0 0.5em;
+
+			&:hover,
+			&:focus {
+				border-left: 4px solid var(--blue);
+			}
 
 			.icon {
 				grid-column: 1/2;
