@@ -22,7 +22,7 @@
 	--hoverBlue: #bfdbfe;
 	--letter-spacing: 0.1rem;
 	--wordSpacing: 0.25rem;
-	--mainTransition: all 2s ease-in-out;
+	--transition: all 2s ease-in-out;
 }
 
 li {
