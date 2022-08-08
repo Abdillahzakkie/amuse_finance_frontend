@@ -5,7 +5,7 @@ import { CgProfile } from "react-icons/cg";
 import { NavbarWrapper } from "./style";
 
 function Navbar() {
-	const _links = [
+	const _navLinks = [
 		{
 			name: "home",
 			icon: CgProfile,
@@ -28,7 +28,7 @@ function Navbar() {
 		},
 	];
 
-	const navLinks = _links.map((item, key) => {
+	const navLinks = _navLinks.map((item, key) => {
 		return (
 			<NavLink
 				key={key}
