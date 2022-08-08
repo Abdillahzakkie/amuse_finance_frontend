@@ -47,10 +47,16 @@ button {
 }
 
 body {
-	background: var(--light);
+	background: var(--white);
 	line-height: 1.8rem;
 	overflow-x: hidden;
 	font-family: inter;
+}
+
+.App {
+	max-width: 1440px;
+	background: var(--light);
+	height: 100%;
 }
 
 .grid {
