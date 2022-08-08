@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 function App() {
 	return (
-		<div className="grid">
+		<div className="grid App">
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/dashboard" element={<Dashboard />} />
